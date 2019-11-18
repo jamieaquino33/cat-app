@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import cats from '../Cat/cats';
+import './header.css';
 
 
 
@@ -7,7 +8,7 @@ class Header extends Component {
 
     generateBreedButtons() {
         return cats.map(cat => (
-            <button key={cat.id} onClick={() => this.props.breedByNameHandler(cat.id)}>
+            <button className="button" key={cat.id} onClick={() => this.props.breedByNameHandler(cat.id)}>
                 {cat.name}
             </button>
 

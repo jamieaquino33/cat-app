@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+.picture {
+    height: 450px;
+    width: auto;
+    border-radius: 45%;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Kalam', cursive;
+}
+
+h1 {
+    color: rgb(241, 241, 151);
+    font-weight: bold;
+    font-size: 30pt;
+    text-shadow: -3px -3px 0 rgb(82, 3, 119), 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+   
+}
+
+p {
+    color: rgb(250, 186, 67);
+    font-size: 15pt;
+}

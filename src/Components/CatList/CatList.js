@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './catlist.css';
 
 class CatList extends Component {
 
@@ -6,9 +7,9 @@ class CatList extends Component {
         return this.props.breeds.map((cat) =>
             <li key={cat.breeds[0].id}>
                 <h1>{cat.breeds[0].name}</h1>
-                <img src={cat.url} alt={cat.breeds[0].name} />
-                <p>{cat.breeds[0].life_span}</p>
-                <p>{cat.breeds[0].temperament}</p>
+                <img className="picture" src={cat.url} alt={cat.breeds[0].name} />
+                <p>Lifespan: {cat.breeds[0].life_span}</p>
+                <p>Fun facts: {cat.breeds[0].temperament}</p>
             </li>
         );
     } 

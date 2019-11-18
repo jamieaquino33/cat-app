@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+.button {
+    margin: 5px;
+    padding: 5pt;
+    color: rgb(62, 62, 235);
+    font-size: 15px;
+    background-color: rgb(241, 241, 151);
+    border-radius: 25px;
+    border: 2px solid black; 
+    -webkit-box-shadow: -10px 25px 80px 20px rgba(215, 247, 184, 0.8);
+    -moz-box-shadow: -10px 25px 80px 20px rgba(209, 243, 176, 0.8);
+    box-shadow: -10px 25px 80px 20px rgba(216, 245, 188, 0.8);
+    outline: none;
+    font-family: 'Kalam', cursive;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(37, 3, 82);
+    transition: all .5s;
+}
+
+body {
+    text-align: center;
+}

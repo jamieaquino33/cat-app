@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import CatList from '../CatList/CatList';
 import Header from '../Header/header';
+import './breedSearcher.css';
 
 class BreedSearcher extends Component {
 
